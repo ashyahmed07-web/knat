@@ -22,7 +22,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -40,7 +39,6 @@ body {
   background: #22D3EE;
 }
 
-/* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
@@ -93,7 +91,6 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-/* Buttons */
 .btn-primary {
   @apply px-8 py-3 rounded-lg font-semibold text-base transition-all duration-300;
   background: linear-gradient(135deg, #4F9DFF, #22D3EE);
@@ -130,7 +127,6 @@ h1, h2, h3, h4, h5, h6 {
   outline-offset: 2px;
 }
 
-/* Cards */
 .card {
   @apply p-6 rounded-lg border transition-all duration-300;
   background-color: #071330;
@@ -154,7 +150,6 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 0 20px rgba(79, 157, 255, 0.2);
 }
 
-/* Glassmorphism */
 .glass {
   background: rgba(7, 19, 48, 0.7);
   backdrop-filter: blur(10px);
@@ -166,7 +161,6 @@ h1, h2, h3, h4, h5, h6 {
   border-color: rgba(79, 157, 255, 0.3);
 }
 
-/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
